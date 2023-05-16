@@ -1,0 +1,332 @@
+07-May-2023 07:21:15.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.71
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 9 2023 22:33:01 UTC
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.71.0
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_361\jre
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_361-b09
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\logging.properties
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|ISAAC
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+07-May-2023 07:21:15.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\temp
+07-May-2023 07:21:16.596 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+07-May-2023 07:21:16.596 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+07-May-2023 07:21:16.596 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+07-May-2023 07:21:16.606 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+07-May-2023 07:21:17.926 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+07-May-2023 07:21:18.024 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2881] milliseconds
+07-May-2023 07:21:18.184 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-May-2023 07:21:18.184 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.71]
+07-May-2023 07:21:18.194 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\registar.xml]
+07-May-2023 07:21:18.288 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/registar] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\registar.xml] has been ignored
+07-May-2023 07:21:21.168 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [460] milliseconds.
+07-May-2023 07:21:21.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\registar.xml] has finished in [3,001] ms
+07-May-2023 07:21:21.195 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\Register.xml]
+07-May-2023 07:21:21.195 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Register] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\Register.xml] has been ignored
+07-May-2023 07:21:21.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\Register.xml] has finished in [754] ms
+07-May-2023 07:21:21.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\docs]
+07-May-2023 07:21:22.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\docs] has finished in [119] ms
+07-May-2023 07:21:22.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\examples]
+07-May-2023 07:21:24.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\examples] has finished in [2,900] ms
+07-May-2023 07:21:24.969 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\host-manager]
+07-May-2023 07:21:25.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\host-manager] has finished in [150] ms
+07-May-2023 07:21:25.119 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\manager]
+07-May-2023 07:21:25.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\manager] has finished in [205] ms
+07-May-2023 07:21:25.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\ROOT]
+07-May-2023 07:21:25.483 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\ROOT] has finished in [157] ms
+07-May-2023 07:21:25.483 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+07-May-2023 07:21:25.598 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7563] milliseconds
+07-May-2023 07:21:33.015 INFO [http-nio-8082-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml]
+07-May-2023 07:21:33.015 WARNING [http-nio-8082-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FinalProjectMVC] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml] has been ignored
+07-May-2023 07:21:34.858 INFO [http-nio-8082-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2023 07:21:35.046 INFO [http-nio-8082-exec-9] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/FinalProjectMVC'
+07-May-2023 07:21:35.280 INFO [http-nio-8082-exec-9] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+07-May-2023 07:21:36.268 INFO [http-nio-8082-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml] has finished in [3,253] ms
+07-May-2023 07:21:36.283 INFO [http-nio-8082-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FinalProjectMVC]] after start() had already been called. The second call will be ignored.
+07-May-2023 07:24:23.792 INFO [http-nio-8082-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml]
+07-May-2023 07:24:23.808 WARNING [http-nio-8082-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/AddtoCart] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml] has been ignored
+07-May-2023 07:24:29.067 INFO [http-nio-8082-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-May-2023 07:24:29.224 INFO [http-nio-8082-exec-4] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+07-May-2023 07:24:29.741 INFO [http-nio-8082-exec-4] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Sun May 07 07:24:29 EDT 2023]; root of context hierarchy
+07-May-2023 07:24:29.830 INFO [http-nio-8082-exec-4] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+07-May-2023 07:24:29.986 INFO [http-nio-8082-exec-4] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 762 ms
+07-May-2023 07:24:30.049 INFO [http-nio-8082-exec-4] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/AddtoCart'
+07-May-2023 07:24:30.206 INFO [http-nio-8082-exec-4] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+07-May-2023 07:24:30.844 INFO [http-nio-8082-exec-4] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+07-May-2023 07:24:30.848 INFO [http-nio-8082-exec-4] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun May 07 07:24:30 EDT 2023]; parent: Root WebApplicationContext
+07-May-2023 07:24:30.852 INFO [http-nio-8082-exec-4] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+07-May-2023 07:24:31.137 INFO [http-nio-8082-exec-4] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+07-May-2023 07:24:31.391 INFO [http-nio-8082-exec-4] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 547 ms
+07-May-2023 07:24:31.407 INFO [http-nio-8082-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml] has finished in [7,615] ms
+07-May-2023 07:24:31.423 INFO [http-nio-8082-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/AddtoCart]] after start() had already been called. The second call will be ignored.
+07-May-2023 07:29:14.104 INFO [http-nio-8082-exec-5] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+07-May-2023 07:29:14.119 INFO [http-nio-8082-exec-5] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+07-May-2023 07:29:14.119 INFO [http-nio-8082-exec-5] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+07-May-2023 07:29:14.128 INFO [http-nio-8082-exec-5] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+07-May-2023 07:29:14.171 INFO [http-nio-8082-exec-5] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+07-May-2023 07:29:14.171 INFO [http-nio-8082-exec-5] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+07-May-2023 07:29:14.398 WARN [http-nio-8082-exec-5] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+07-May-2023 07:29:14.463 INFO [http-nio-8082-exec-5] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+07-May-2023 07:29:14.693 WARN [http-nio-8082-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+07-May-2023 07:29:14.693 INFO [http-nio-8082-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/webtechn?zeroDateTimeBehavior=convertToNull]
+07-May-2023 07:29:14.693 INFO [http-nio-8082-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root}
+07-May-2023 07:29:14.693 INFO [http-nio-8082-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+07-May-2023 07:29:14.703 INFO [http-nio-8082-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+07-May-2023 07:29:19.121 SEVERE [http-nio-8082-exec-5] com.sun.faces.application.view.FaceletViewHandlingStrategy.handleRenderException Error Rendering View[/ItemsList.xhtml]
+	javax.el.ELException: /ItemsList.xhtml @12,63 value="#{ac.payList}": Error reading [payList] on type [Demo.AddtoCart]
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+		at javax.faces.component.UIData.getValue(UIData.java:732)
+		at javax.faces.component.UIData.getDataModel(UIData.java:1822)
+		at javax.faces.component.UIData.setRowIndexWithoutRowStatePreserved(UIData.java:484)
+		at javax.faces.component.UIData.setRowIndex(UIData.java:473)
+		at com.sun.faces.renderkit.html_basic.TableRenderer.encodeBegin(TableRenderer.java:81)
+		at javax.faces.component.UIComponentBase.encodeBegin(UIComponentBase.java:864)
+		at javax.faces.component.UIData.encodeBegin(UIData.java:1133)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1854)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:133)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: javax.el.ELException: Error reading [payList] on type [Demo.AddtoCart]
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:101)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+		... 40 more
+	Caused by: java.lang.ExceptionInInitializerError
+		at DAO.HibernateUtil1.<clinit>(HibernateUtil1.java:29)
+		at DAO.AddtoCartDAO.findAll(AddtoCartDAO.java:53)
+		at Demo.AddtoCart.getPayList(AddtoCart.java:77)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:97)
+		... 45 more
+	Caused by: org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:132)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator$1$1.convert(BasicConnectionCreator.java:118)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:140)
+		at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:58)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:75)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:106)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:89)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:206)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:178)
+		at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.buildJdbcConnectionAccess(JdbcServicesImpl.java:260)
+		at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:94)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:89)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:206)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:178)
+		at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1885)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1843)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1928)
+		at DAO.HibernateUtil1.<clinit>(HibernateUtil1.java:25)
+		... 52 more
+	Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+		at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1117)
+		at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355)
+		at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2461)
+		at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2498)
+		at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2283)
+		at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:822)
+		at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+		at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:404)
+		at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+		at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:55)
+		... 66 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+		at java.net.Socket.connect(Socket.java:606)
+		at java.net.Socket.connect(Socket.java:555)
+		at java.net.Socket.<init>(Socket.java:451)
+		at java.net.Socket.<init>(Socket.java:261)
+		at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+		at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305)
+		... 79 more
+07-May-2023 07:29:19.275 1100 [http-nio-8082-exec-5] com.sun.faces.context.ExceptionHandlerImpl.log JSF1073: javax.el.ELException caught during processing of RENDER_RESPONSE 6 : UIComponent-ClientId=, Message=/ItemsList.xhtml @12,63 value="#{ac.payList}": Error reading [payList] on type [Demo.AddtoCart]
+07-May-2023 07:29:19.275 1100 [http-nio-8082-exec-5] com.sun.faces.context.ExceptionHandlerImpl.log /ItemsList.xhtml @12,63 value="#{ac.payList}": Error reading [payList] on type [Demo.AddtoCart]
+	javax.el.ELException: /ItemsList.xhtml @12,63 value="#{ac.payList}": Error reading [payList] on type [Demo.AddtoCart]
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:114)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:194)
+		at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:182)
+		at javax.faces.component.UIData.getValue(UIData.java:732)
+		at javax.faces.component.UIData.getDataModel(UIData.java:1822)
+		at javax.faces.component.UIData.setRowIndexWithoutRowStatePreserved(UIData.java:484)
+		at javax.faces.component.UIData.setRowIndex(UIData.java:473)
+		at com.sun.faces.renderkit.html_basic.TableRenderer.encodeBegin(TableRenderer.java:81)
+		at javax.faces.component.UIComponentBase.encodeBegin(UIComponentBase.java:864)
+		at javax.faces.component.UIData.encodeBegin(UIData.java:1133)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1854)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1859)
+		at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:456)
+		at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:133)
+		at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:120)
+		at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:101)
+		at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:219)
+		at javax.faces.webapp.FacesServlet.service(FacesServlet.java:647)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: javax.el.ELException: Error reading [payList] on type [Demo.AddtoCart]
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:101)
+		at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:176)
+		at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:203)
+		at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+		at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+		at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:109)
+		... 40 more
+	Caused by: java.lang.ExceptionInInitializerError
+		at DAO.HibernateUtil1.<clinit>(HibernateUtil1.java:29)
+		at DAO.AddtoCartDAO.findAll(AddtoCartDAO.java:53)
+		at Demo.AddtoCart.getPayList(AddtoCart.java:77)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at javax.el.BeanELResolver.getValue(BeanELResolver.java:97)
+		... 45 more
+	Caused by: org.hibernate.exception.JDBCConnectionException: Error calling Driver#connect
+		at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:132)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator$1$1.convert(BasicConnectionCreator.java:118)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.convertSqlException(BasicConnectionCreator.java:140)
+		at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:58)
+		at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:75)
+		at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:106)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:89)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:206)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:178)
+		at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.buildJdbcConnectionAccess(JdbcServicesImpl.java:260)
+		at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:94)
+		at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:89)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:206)
+		at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:178)
+		at org.hibernate.cfg.Configuration.buildTypeRegistrations(Configuration.java:1885)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1843)
+		at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1928)
+		at DAO.HibernateUtil1.<clinit>(HibernateUtil1.java:25)
+		... 52 more
+	Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+		at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1117)
+		at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:355)
+		at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2461)
+		at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2498)
+		at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2283)
+		at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:822)
+		at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+		at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+		at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+		at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+		at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+		at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:404)
+		at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:317)
+		at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:55)
+		... 66 more
+	Caused by: java.net.ConnectException: Connection refused: connect
+		at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+		at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:75)
+		at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+		at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+		at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+		at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+		at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+		at java.net.Socket.connect(Socket.java:606)
+		at java.net.Socket.connect(Socket.java:555)
+		at java.net.Socket.<init>(Socket.java:451)
+		at java.net.Socket.<init>(Socket.java:261)
+		at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:259)
+		at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:305)
+		... 79 more
+07-May-2023 08:48:07.891 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+07-May-2023 08:48:07.891 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+07-May-2023 08:48:08.508 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-May-2023 08:48:08.555 INFO [main] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Sun May 07 07:24:30 EDT 2023]; parent: Root WebApplicationContext
+07-May-2023 08:48:08.602 INFO [main] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Sun May 07 07:24:29 EDT 2023]; root of context hierarchy
+07-May-2023 08:48:08.617 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AddtoCart] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+07-May-2023 08:48:08.695 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+07-May-2023 08:48:08.711 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]

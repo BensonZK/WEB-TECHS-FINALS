@@ -1,0 +1,52 @@
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.71
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 9 2023 22:33:01 UTC
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.71.0
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_111\jre
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\conf\logging.properties
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|Isaac
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71
+03-Mar-2023 12:38:57.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\temp
+03-Mar-2023 12:39:00.756 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+03-Mar-2023 12:39:00.756 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+03-Mar-2023 12:39:00.756 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+03-Mar-2023 12:39:01.053 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+03-Mar-2023 12:39:10.463 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Mar-2023 12:39:10.963 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [16118] milliseconds
+03-Mar-2023 12:39:11.291 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Mar-2023 12:39:11.291 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.71]
+03-Mar-2023 12:39:11.322 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\conf\Catalina\localhost\StudentRegistrationApp.xml]
+03-Mar-2023 12:39:11.400 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/StudentRegistrationApp] in deployment descriptor [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\conf\Catalina\localhost\StudentRegistrationApp.xml] has been ignored
+03-Mar-2023 12:39:17.279 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Mar-2023 12:39:17.638 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/StudentRegistrationApp'
+03-Mar-2023 12:39:17.873 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+03-Mar-2023 12:39:19.344 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [485] milliseconds.
+03-Mar-2023 12:39:19.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\conf\Catalina\localhost\StudentRegistrationApp.xml] has finished in [8,038] ms
+03-Mar-2023 12:39:19.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\webapps\docs]
+03-Mar-2023 12:39:19.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\webapps\docs] has finished in [406] ms
+03-Mar-2023 12:39:19.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\webapps\examples]
+03-Mar-2023 12:39:28.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\webapps\examples] has finished in [8,423] ms
+03-Mar-2023 12:39:28.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\webapps\host-manager]
+03-Mar-2023 12:39:29.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\webapps\host-manager] has finished in [1,157] ms
+03-Mar-2023 12:39:29.346 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\webapps\manager]
+03-Mar-2023 12:39:30.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\webapps\manager] has finished in [703] ms
+03-Mar-2023 12:39:30.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\webapps\ROOT]
+03-Mar-2023 12:39:30.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\AUCA\Semester 8\WEB TECH\apache-tomcat-9.0.71\webapps\ROOT] has finished in [47] ms
+03-Mar-2023 12:39:30.096 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Mar-2023 12:39:30.597 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [19632] milliseconds
+03-Mar-2023 12:40:48.473 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Mar-2023 12:40:48.473 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Mar-2023 12:40:49.576 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Mar-2023 12:40:50.060 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Mar-2023 12:40:50.076 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    
+    <h:head>
+        <title>Check out</title>
+    </h:head>
+    <h:body>
+        Hello from Facelets
+        
+        <h:messages/>
+        <h:form>
+            <h:panelGrid columns="2">
+            <h:outputLabel value="Name"/>
+            <h:inputText value="#{pd.pay.name}" />
+            <h:outputLabel value="Phone"/>
+            <h:inputText value="#{pd.pay.phone}" />
+            <h:outputLabel value="Address"/>
+            <h:inputText value="#{pd.pay.address}" />
+            <h:outputLabel value="Card_number"/>
+            <h:inputText value="#{pd.pay.card_number}" />
+            <h:outputLabel value="M"/>
+            <h:inputText value="#{pd.pay.m}" />
+            <h:outputLabel value="Y"/>
+            <h:inputText value="#{pd.pay.y}" />
+            <h:outputLabel value="Cvv"/>
+            <h:inputText value="#{pd.pay.cvv}" />
+            <h:inputHidden value="#{pd.action}"/>
+            <h:commandButton value="#{pd.action}" action="#{pd.register()}"/>
+            </h:panelGrid>
+        </h:form>
+    </h:body>
+</html>
+

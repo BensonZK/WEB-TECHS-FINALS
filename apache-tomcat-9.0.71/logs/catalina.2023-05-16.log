@@ -1,0 +1,361 @@
+16-May-2023 12:54:57.956 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.71
+16-May-2023 12:54:58.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 9 2023 22:33:01 UTC
+16-May-2023 12:54:58.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.71.0
+16-May-2023 12:54:58.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-May-2023 12:54:58.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-May-2023 12:54:58.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2023 12:54:58.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_361\jre
+16-May-2023 12:54:58.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_361-b09
+16-May-2023 12:54:58.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2023 12:54:58.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+16-May-2023 12:54:58.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+16-May-2023 12:54:58.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\logging.properties
+16-May-2023 12:54:58.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2023 12:54:58.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|ISAAC
+16-May-2023 12:54:58.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2023 12:54:58.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2023 12:54:58.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2023 12:54:58.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+16-May-2023 12:54:58.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+16-May-2023 12:54:58.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\temp
+16-May-2023 12:54:58.207 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+16-May-2023 12:54:58.207 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16-May-2023 12:54:58.207 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16-May-2023 12:54:58.254 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+16-May-2023 12:54:59.923 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+16-May-2023 12:54:59.987 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [2693] milliseconds
+16-May-2023 12:55:00.227 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-May-2023 12:55:00.227 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.71]
+16-May-2023 12:55:00.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml]
+16-May-2023 12:55:00.321 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/AddtoCart] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml] has been ignored
+16-May-2023 12:55:06.021 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2023 12:55:06.288 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+16-May-2023 12:55:06.618 INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue May 16 12:55:06 EDT 2023]; root of context hierarchy
+16-May-2023 12:55:06.853 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+16-May-2023 12:55:07.199 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 911 ms
+16-May-2023 12:55:07.277 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/AddtoCart'
+16-May-2023 12:55:07.543 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-May-2023 12:55:08.802 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [363] milliseconds.
+16-May-2023 12:55:08.849 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+16-May-2023 12:55:08.856 INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue May 16 12:55:08 EDT 2023]; parent: Root WebApplicationContext
+16-May-2023 12:55:08.865 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+16-May-2023 12:55:09.179 INFO [main] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+16-May-2023 12:55:10.332 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 1483 ms
+16-May-2023 12:55:10.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml] has finished in [10,121] ms
+16-May-2023 12:55:10.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml]
+16-May-2023 12:55:10.364 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FinalProjectMVC] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml] has been ignored
+16-May-2023 12:55:12.581 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-May-2023 12:55:12.722 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/FinalProjectMVC'
+16-May-2023 12:55:12.941 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+16-May-2023 12:55:13.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml] has finished in [3,299] ms
+16-May-2023 12:55:13.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\registar.xml]
+16-May-2023 12:55:13.669 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/registar] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\registar.xml] has been ignored
+16-May-2023 12:55:14.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\registar.xml] has finished in [1,083] ms
+16-May-2023 12:55:14.746 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\Register.xml]
+16-May-2023 12:55:14.762 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Register] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\Register.xml] has been ignored
+16-May-2023 12:55:14.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\Register.xml] has finished in [161] ms
+16-May-2023 12:55:14.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\docs]
+16-May-2023 12:55:14.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\docs] has finished in [78] ms
+16-May-2023 12:55:14.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\examples]
+16-May-2023 12:55:16.840 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\examples] has finished in [1,855] ms
+16-May-2023 12:55:16.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\host-manager]
+16-May-2023 12:55:16.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\host-manager] has finished in [141] ms
+16-May-2023 12:55:16.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\manager]
+16-May-2023 12:55:17.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\manager] has finished in [182] ms
+16-May-2023 12:55:17.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\ROOT]
+16-May-2023 12:55:17.264 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\ROOT] has finished in [85] ms
+16-May-2023 12:55:17.264 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+16-May-2023 12:55:17.379 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [17385] milliseconds
+16-May-2023 16:41:14.247 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/AddtoCart]
+16-May-2023 16:41:16.279 INFO [Catalina-utility-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue May 16 12:55:08 EDT 2023]; parent: Root WebApplicationContext
+16-May-2023 16:41:17.307 SEVERE [Catalina-utility-2] com.sun.faces.config.ConfigureListener.contextDestroyed Unexpected exception when attempting to tear down the Mojarra runtime
+	java.lang.IllegalStateException: java.io.FileNotFoundException: C:\Users\isaac\Desktop\Web Tech Final\AddtoCart\build\web\WEB-INF\lib\antlr-2.7.7.jar (The system cannot find the path specified)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:101)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:264)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2353)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:875)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1376)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+		at com.sun.faces.config.ConfigureListener.contextDestroyed(ConfigureListener.java:323)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4810)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5463)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:811)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1362)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1366)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.io.FileNotFoundException: C:\Users\isaac\Desktop\Web Tech Final\AddtoCart\build\web\WEB-INF\lib\antlr-2.7.7.jar (The system cannot find the path specified)
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:226)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+		at java.util.jar.JarFile.<init>(JarFile.java:170)
+		at java.util.jar.JarFile.<init>(JarFile.java:134)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:255)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:240)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:316)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+		... 31 more
+16-May-2023 16:41:18.069 SEVERE [Catalina-utility-2] javax.faces.FactoryFinder.releaseFactories Unable to invoke @PreDestroy annotated methods on com.sun.faces.facelets.tag.jsf.TagHandlerDelegateFactoryImpl@36c43b38.
+	java.lang.IllegalStateException: java.io.FileNotFoundException: C:\Users\isaac\Desktop\Web Tech Final\AddtoCart\build\web\WEB-INF\lib\antlr-2.7.7.jar (The system cannot find the path specified)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:101)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:264)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2353)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:875)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1376)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+		at java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+		at java.lang.Class.getDeclaredMethods(Class.java:1975)
+		at com.sun.faces.vendor.WebContainerInjectionProvider.getAnnotatedMethod(WebContainerInjectionProvider.java:163)
+		at com.sun.faces.vendor.WebContainerInjectionProvider.invokePreDestroy(WebContainerInjectionProvider.java:83)
+		at javax.faces.FactoryFinder.releaseFactories(FactoryFinder.java:442)
+		at com.sun.faces.config.ConfigManager.releaseFactories(ConfigManager.java:809)
+		at com.sun.faces.config.ConfigManager.destroy(ConfigManager.java:475)
+		at com.sun.faces.config.ConfigureListener.contextDestroyed(ConfigureListener.java:338)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4810)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5463)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:811)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1362)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1366)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.io.FileNotFoundException: C:\Users\isaac\Desktop\Web Tech Final\AddtoCart\build\web\WEB-INF\lib\antlr-2.7.7.jar (The system cannot find the path specified)
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:226)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+		at java.util.jar.JarFile.<init>(JarFile.java:170)
+		at java.util.jar.JarFile.<init>(JarFile.java:134)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:255)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:240)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:316)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+		... 39 more
+16-May-2023 16:41:24.817 INFO [Catalina-utility-2] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Tue May 16 12:55:06 EDT 2023]; root of context hierarchy
+16-May-2023 16:41:29.786 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/FinalProjectMVC]
+16-May-2023 16:41:30.248 SEVERE [Catalina-utility-2] com.sun.faces.config.ConfigureListener.contextDestroyed Unexpected exception when attempting to tear down the Mojarra runtime
+	java.lang.IllegalStateException: java.io.FileNotFoundException: C:\Users\isaac\Desktop\Web Tech Final\FinalProjectMVC\build\web\WEB-INF\lib\antlr-2.7.7.jar (The system cannot find the path specified)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:101)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:264)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2353)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:875)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1376)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+		at com.sun.faces.config.ConfigureListener.contextDestroyed(ConfigureListener.java:323)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4810)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5463)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:811)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1362)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1366)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.io.FileNotFoundException: C:\Users\isaac\Desktop\Web Tech Final\FinalProjectMVC\build\web\WEB-INF\lib\antlr-2.7.7.jar (The system cannot find the path specified)
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:226)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+		at java.util.jar.JarFile.<init>(JarFile.java:170)
+		at java.util.jar.JarFile.<init>(JarFile.java:134)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:255)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:240)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:316)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+		... 31 more
+16-May-2023 16:41:30.679 SEVERE [Catalina-utility-2] javax.faces.FactoryFinder.releaseFactories Unable to invoke @PreDestroy annotated methods on com.sun.faces.facelets.tag.jsf.TagHandlerDelegateFactoryImpl@13979808.
+	java.lang.IllegalStateException: java.io.FileNotFoundException: C:\Users\isaac\Desktop\Web Tech Final\FinalProjectMVC\build\web\WEB-INF\lib\antlr-2.7.7.jar (The system cannot find the path specified)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:101)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:264)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:281)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:216)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2353)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:875)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1376)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1220)
+		at java.lang.Class.getDeclaredMethods0(Native Method)
+		at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+		at java.lang.Class.getDeclaredMethods(Class.java:1975)
+		at com.sun.faces.vendor.WebContainerInjectionProvider.getAnnotatedMethod(WebContainerInjectionProvider.java:163)
+		at com.sun.faces.vendor.WebContainerInjectionProvider.invokePreDestroy(WebContainerInjectionProvider.java:83)
+		at javax.faces.FactoryFinder.releaseFactories(FactoryFinder.java:442)
+		at com.sun.faces.config.ConfigManager.releaseFactories(ConfigManager.java:809)
+		at com.sun.faces.config.ConfigManager.destroy(ConfigManager.java:475)
+		at com.sun.faces.config.ConfigureListener.contextDestroyed(ConfigureListener.java:338)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4810)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5463)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:811)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1465)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1390)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1653)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1362)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1366)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: java.io.FileNotFoundException: C:\Users\isaac\Desktop\Web Tech Final\FinalProjectMVC\build\web\WEB-INF\lib\antlr-2.7.7.jar (The system cannot find the path specified)
+		at java.util.zip.ZipFile.open(Native Method)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:226)
+		at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+		at java.util.jar.JarFile.<init>(JarFile.java:170)
+		at java.util.jar.JarFile.<init>(JarFile.java:134)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:255)
+		at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:240)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:316)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:97)
+		... 39 more
+16-May-2023 16:41:32.852 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml]
+16-May-2023 16:41:33.415 WARNING [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/AddtoCart] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml] has been ignored
+16-May-2023 16:41:33.684 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1666)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1362)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1366)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@64d3a1f]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4881)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5014)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 25 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\isaac\Desktop\Web Tech Final\AddtoCart\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:777)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:734)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 29 more
+16-May-2023 16:41:33.708 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml] has finished in [835] ms
+16-May-2023 16:41:33.708 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml]
+16-May-2023 16:41:33.802 WARNING [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FinalProjectMVC] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml] has been ignored
+16-May-2023 16:41:33.834 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1666)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1159)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1362)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1366)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1344)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:750)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5002961b]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4881)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5014)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 25 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\isaac\Desktop\Web Tech Final\FinalProjectMVC\build\web] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:777)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:734)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 29 more
+16-May-2023 16:41:33.865 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml] has finished in [157] ms
+16-May-2023 16:41:58.732 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-May-2023 16:41:58.759 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+16-May-2023 16:41:59.392 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-May-2023 16:41:59.693 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+16-May-2023 16:42:00.041 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]

@@ -1,0 +1,190 @@
+11-May-2023 02:39:33.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.71
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 9 2023 22:33:01 UTC
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.71.0
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_361\jre
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_361-b09
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\logging.properties
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|ISAAC
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71
+11-May-2023 02:39:33.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\temp
+11-May-2023 02:39:35.248 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+11-May-2023 02:39:35.248 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+11-May-2023 02:39:35.248 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-May-2023 02:39:35.264 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+11-May-2023 02:39:37.085 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+11-May-2023 02:39:37.194 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3925] milliseconds
+11-May-2023 02:39:37.335 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-May-2023 02:39:37.335 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.71]
+11-May-2023 02:39:37.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml]
+11-May-2023 02:39:37.507 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/AddtoCart] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml] has been ignored
+11-May-2023 02:39:43.466 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-May-2023 02:39:43.779 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+11-May-2023 02:39:44.029 INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Thu May 11 02:39:44 EDT 2023]; root of context hierarchy
+11-May-2023 02:39:44.200 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+11-May-2023 02:39:45.356 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1577 ms
+11-May-2023 02:39:45.466 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/AddtoCart'
+11-May-2023 02:39:45.795 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+11-May-2023 02:39:46.921 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [328] milliseconds.
+11-May-2023 02:39:48.095 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+11-May-2023 02:39:48.110 INFO [main] org.springframework.context.support.AbstractApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu May 11 02:39:48 EDT 2023]; parent: Root WebApplicationContext
+11-May-2023 02:39:48.110 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+11-May-2023 02:39:48.329 INFO [main] org.springframework.web.servlet.handler.AbstractUrlHandlerMapping.registerHandler Mapped URL path [/index.htm] onto handler 'indexController'
+11-May-2023 02:39:48.688 INFO [main] org.springframework.web.servlet.FrameworkServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 593 ms
+11-May-2023 02:39:48.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\AddtoCart.xml] has finished in [11,368] ms
+11-May-2023 02:39:48.719 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml]
+11-May-2023 02:39:48.719 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/FinalProjectMVC] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml] has been ignored
+11-May-2023 02:39:50.896 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-May-2023 02:39:51.068 INFO [main] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/FinalProjectMVC'
+11-May-2023 02:39:51.255 INFO [main] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+11-May-2023 02:39:51.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\FinalProjectMVC.xml] has finished in [3,194] ms
+11-May-2023 02:39:51.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\registar.xml]
+11-May-2023 02:39:51.913 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/registar] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\registar.xml] has been ignored
+11-May-2023 02:39:52.085 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\registar.xml] has finished in [172] ms
+11-May-2023 02:39:52.085 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\Register.xml]
+11-May-2023 02:39:52.100 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Register] in deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\Register.xml] has been ignored
+11-May-2023 02:39:52.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\conf\Catalina\localhost\Register.xml] has finished in [79] ms
+11-May-2023 02:39:52.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\docs]
+11-May-2023 02:39:52.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\docs] has finished in [47] ms
+11-May-2023 02:39:52.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\examples]
+11-May-2023 02:39:54.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\examples] has finished in [2,336] ms
+11-May-2023 02:39:54.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\host-manager]
+11-May-2023 02:39:54.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\host-manager] has finished in [125] ms
+11-May-2023 02:39:54.672 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\manager]
+11-May-2023 02:39:54.797 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\manager] has finished in [125] ms
+11-May-2023 02:39:54.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\ROOT]
+11-May-2023 02:39:54.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\isaac\Desktop\Web Tech Final\apache-tomcat-9.0.71\webapps\ROOT] has finished in [47] ms
+11-May-2023 02:39:54.875 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+11-May-2023 02:39:54.984 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [17788] milliseconds
+11-May-2023 02:39:59.258 INFO [http-nio-8082-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FinalProjectMVC] has started
+11-May-2023 02:40:00.430 INFO [http-nio-8082-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-May-2023 02:40:00.555 INFO [http-nio-8082-exec-3] com.sun.faces.config.ConfigureListener.contextInitialized Initializing Mojarra 2.2.7 ( 20140610-1547 https://svn.java.net/svn/mojarra~svn/tags/2.2.7@13362) for context '/FinalProjectMVC'
+11-May-2023 02:40:00.664 INFO [http-nio-8082-exec-3] com.sun.faces.spi.InjectionProviderFactory.createInstance JSF1048: PostConstruct/PreDestroy annotations present.  ManagedBeans methods marked with these annotations will have said annotations processed.
+11-May-2023 02:40:01.383 INFO [http-nio-8082-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/FinalProjectMVC] is completed
+11-May-2023 02:40:31.709 INFO [http-nio-8082-exec-9] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+11-May-2023 02:40:31.728 INFO [http-nio-8082-exec-9] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+11-May-2023 02:40:31.734 INFO [http-nio-8082-exec-9] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+11-May-2023 02:40:31.737 INFO [http-nio-8082-exec-9] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+11-May-2023 02:40:31.819 INFO [http-nio-8082-exec-9] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-May-2023 02:40:31.819 INFO [http-nio-8082-exec-9] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+11-May-2023 02:40:32.017 WARN [http-nio-8082-exec-9] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+11-May-2023 02:40:32.072 INFO [http-nio-8082-exec-9] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+11-May-2023 02:40:32.355 WARN [http-nio-8082-exec-9] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+11-May-2023 02:40:32.361 INFO [http-nio-8082-exec-9] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/food?zeroDateTimeBehavior=convertToNull]
+11-May-2023 02:40:32.361 INFO [http-nio-8082-exec-9] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root}
+11-May-2023 02:40:32.361 INFO [http-nio-8082-exec-9] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+11-May-2023 02:40:32.364 INFO [http-nio-8082-exec-9] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+11-May-2023 02:40:32.745 INFO [http-nio-8082-exec-9] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+11-May-2023 02:40:33.118 INFO [http-nio-8082-exec-9] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+11-May-2023 02:40:33.145 INFO [http-nio-8082-exec-9] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+11-May-2023 02:40:33.810 INFO [http-nio-8082-exec-9] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000228: Running hbm2ddl schema update
+11-May-2023 02:40:33.811 INFO [http-nio-8082-exec-9] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000102: Fetching database metadata
+11-May-2023 02:40:33.814 INFO [http-nio-8082-exec-9] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000396: Updating schema
+11-May-2023 02:40:33.899 INFO [http-nio-8082-exec-9] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: food.payment_delivery
+11-May-2023 02:40:33.899 INFO [http-nio-8082-exec-9] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [cvv, address, card_number, phone, name, y, m]
+11-May-2023 02:40:33.900 INFO [http-nio-8082-exec-9] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: []
+11-May-2023 02:40:33.900 INFO [http-nio-8082-exec-9] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [primary]
+11-May-2023 02:40:33.902 INFO [http-nio-8082-exec-9] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000232: Schema update complete
+11-May-2023 02:41:28.197 INFO [http-nio-8082-exec-11] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+11-May-2023 02:41:28.556 INFO [http-nio-8082-exec-11] org.hibernate.Version.logVersion HHH000412: Hibernate Core {4.3.1.Final}
+11-May-2023 02:41:28.562 INFO [http-nio-8082-exec-11] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+11-May-2023 02:41:28.566 INFO [http-nio-8082-exec-11] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+11-May-2023 02:41:28.751 INFO [http-nio-8082-exec-11] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-May-2023 02:41:28.751 INFO [http-nio-8082-exec-11] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+11-May-2023 02:41:28.831 WARN [http-nio-8082-exec-11] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+11-May-2023 02:41:28.956 INFO [http-nio-8082-exec-11] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+11-May-2023 02:41:29.343 WARN [http-nio-8082-exec-11] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+11-May-2023 02:41:29.351 INFO [http-nio-8082-exec-11] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/food?zeroDateTimeBehavior=convertToNull]
+11-May-2023 02:41:29.352 INFO [http-nio-8082-exec-11] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root}
+11-May-2023 02:41:29.352 INFO [http-nio-8082-exec-11] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+11-May-2023 02:41:29.355 INFO [http-nio-8082-exec-11] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+11-May-2023 02:41:29.685 INFO [http-nio-8082-exec-11] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+11-May-2023 02:41:30.080 INFO [http-nio-8082-exec-11] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+11-May-2023 02:41:30.091 INFO [http-nio-8082-exec-11] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+11-May-2023 02:41:30.789 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000228: Running hbm2ddl schema update
+11-May-2023 02:41:30.790 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000102: Fetching database metadata
+11-May-2023 02:41:30.794 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000396: Updating schema
+11-May-2023 02:41:30.859 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: food.addtocartm
+11-May-2023 02:41:30.859 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [quantity, price, name]
+11-May-2023 02:41:30.859 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: []
+11-May-2023 02:41:30.859 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [primary]
+11-May-2023 02:41:30.861 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000232: Schema update complete
+11-May-2023 02:41:31.216 WARN [http-nio-8082-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1062, SQLState: 23000
+11-May-2023 02:41:31.216 ERROR [http-nio-8082-exec-11] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Duplicate entry 'watermelo' for key 'PRIMARY'
+11-May-2023 02:41:31.219 INFO [http-nio-8082-exec-11] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+11-May-2023 02:54:45.484 INFO [http-nio-8082-exec-11] org.hibernate.cfg.Configuration.configure HHH000043: Configuring from resource: /hibernate.cfg.xml
+11-May-2023 02:54:45.484 INFO [http-nio-8082-exec-11] org.hibernate.cfg.Configuration.getConfigurationInputStream HHH000040: Configuration resource: /hibernate.cfg.xml
+11-May-2023 02:54:45.501 WARN [http-nio-8082-exec-11] org.hibernate.internal.util.xml.DTDEntityResolver.resolveEntity HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+11-May-2023 02:54:45.506 INFO [http-nio-8082-exec-11] org.hibernate.cfg.Configuration.doConfigure HHH000041: Configured SessionFactory: null
+11-May-2023 02:54:45.515 WARN [http-nio-8082-exec-11] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000402: Using Hibernate built-in connection pool (not for production use!)
+11-May-2023 02:54:45.516 INFO [http-nio-8082-exec-11] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/food?zeroDateTimeBehavior=convertToNull]
+11-May-2023 02:54:45.516 INFO [http-nio-8082-exec-11] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000046: Connection properties: {user=root}
+11-May-2023 02:54:45.516 INFO [http-nio-8082-exec-11] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildCreator HHH000006: Autocommit mode: false
+11-May-2023 02:54:45.516 INFO [http-nio-8082-exec-11] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH000115: Hibernate connection pool size: 20 (min=1)
+11-May-2023 02:54:45.529 INFO [http-nio-8082-exec-11] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+11-May-2023 02:54:45.540 INFO [http-nio-8082-exec-11] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService HHH000399: Using default transaction strategy (direct JDBC transactions)
+11-May-2023 02:54:45.541 INFO [http-nio-8082-exec-11] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init> HHH000397: Using ASTQueryTranslatorFactory
+11-May-2023 02:54:45.546 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000228: Running hbm2ddl schema update
+11-May-2023 02:54:45.546 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000102: Fetching database metadata
+11-May-2023 02:54:45.547 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000396: Updating schema
+11-May-2023 02:54:45.565 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000261: Table found: food.payment_delivery
+11-May-2023 02:54:45.565 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000037: Columns: [cvv, address, card_number, phone, name, y, m]
+11-May-2023 02:54:45.566 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000108: Foreign keys: []
+11-May-2023 02:54:45.566 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.TableMetadata.<init> HHH000126: Indexes: [primary]
+11-May-2023 02:54:45.566 INFO [http-nio-8082-exec-11] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute HHH000232: Schema update complete
+11-May-2023 02:54:46.096 WARNING [http-nio-8082-exec-11] com.sun.faces.application.resource.ResourceHandlerImpl.logMissingResource JSF1064: Unable to find or serve resource, /lifeList.xhtml.
+11-May-2023 04:58:11.135 WARN [http-nio-8082-exec-17] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1062, SQLState: 23000
+11-May-2023 04:58:11.135 ERROR [http-nio-8082-exec-17] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Duplicate entry 'watermelo' for key 'PRIMARY'
+11-May-2023 04:58:11.135 INFO [http-nio-8082-exec-17] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+11-May-2023 04:58:13.376 WARN [http-nio-8082-exec-15] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions SQL Error: 1062, SQLState: 23000
+11-May-2023 04:58:13.379 ERROR [http-nio-8082-exec-15] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions Duplicate entry 'watermelo' for key 'PRIMARY'
+11-May-2023 04:58:13.379 INFO [http-nio-8082-exec-15] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release HHH000010: On release of batch it still contained JDBC statements
+11-May-2023 06:35:24.965 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-May-2023 06:35:24.965 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+11-May-2023 06:35:25.387 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-May-2023 06:35:25.404 INFO [main] org.springframework.context.support.AbstractApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu May 11 02:39:48 EDT 2023]; parent: Root WebApplicationContext
+11-May-2023 06:35:25.422 INFO [main] org.springframework.context.support.AbstractApplicationContext.doClose Closing Root WebApplicationContext: startup date [Thu May 11 02:39:44 EDT 2023]; root of context hierarchy
+11-May-2023 06:35:25.453 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [AddtoCart] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-May-2023 06:35:25.453 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [AddtoCart] appears to have started a thread named [pool-2-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+11-May-2023 06:35:25.469 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [FinalProjectMVC] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-May-2023 06:35:25.469 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [FinalProjectMVC] appears to have started a thread named [pool-1-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+11-May-2023 06:35:25.469 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [FinalProjectMVC] appears to have started a thread named [pool-3-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+11-May-2023 06:35:25.500 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+11-May-2023 06:35:25.516 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
